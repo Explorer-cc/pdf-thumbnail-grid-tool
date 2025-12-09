@@ -1,0 +1,15 @@
+[project]
+name = "concat-pdf"
+version = "0.9.9"
+description = "A tool to create N×M grid thumbnails from PDF files with GUI"
+requires-python = ">=3.12"
+dependencies = [
+    "pymupdf>=1.23.0",
+    "pillow>=10.0.0",
+    "numpy>=1.24.0",
+]
+
+[project.optional-dependencies]
+gui = [
+    "pyinstaller>=6.0.0",
+]
